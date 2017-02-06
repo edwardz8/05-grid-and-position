@@ -18,7 +18,7 @@ img {
 
 .banner {
   padding: 1rem;
-  background: #3131aa;
+  background: #1c98d5;
   color: #fefefe;
 }
 
@@ -45,5 +45,42 @@ border-radius: .1rem;
 text-align: center;
 }
 
+.logo {
+  font-size: 1.5rem;
+}
+
 
 /*Grid*/
+
+.section {
+  padding: 1rem;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__item {
+   background: #9bb3fc;
+   margin: 1rem;
+   flex-basis: calc(100% / 2 - 2rem);
+   flex-grow: 1;
+}
+
+.card {
+  border: solid 2px;
+  border-style: outset;
+  padding: 1rem;
+  min-width: 14rem;
+  position: relative;
+}
+
+.card__bottom {
+  border-top: yellow solid 2px;
+}
