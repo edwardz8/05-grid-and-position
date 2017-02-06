@@ -17,15 +17,23 @@ img {
 }
 
 .banner {
-  padding: 1rem;
+  padding: 2rem;
   background: #1c98d5;
   color: #fefefe;
+  line-height: .5rem;
+
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+}
+
+.navbar__group-left {
+  float: left;
+}
+
+.navbar__group-right {
+  float: right;
 }
 
 .nav-list {
@@ -38,14 +46,8 @@ img {
   margin: .5rem 1rem;
 }
 
-.nav-list__item--btn {
-margin: 1;
-border: solid white .1rem;
-border-radius: .1rem;
-text-align: center;
-}
-
 .logo {
+  margin: 0;
   font-size: 1.5rem;
 }
 
@@ -66,19 +68,41 @@ text-align: center;
     flex-wrap: wrap;
 }
 
+/*Card*/
+
 .grid__item {
-   background: #9bb3fc;
    margin: 1rem;
    flex-basis: calc(100% / 2 - 2rem);
    flex-grow: 1;
 }
 
 .card {
+  background: #9bb3fc;
   border: solid 2px;
   border-style: outset;
+  margin: 0 auto;
   padding: 1rem;
-  min-width: 14rem;
+  min-width: 8rem;
   position: relative;
+}
+
+.card__pic {
+  max-width: 3rem;
+  border-radius: 50%;
+  border: solid grey 1px;
+  position: absolute;
+  top: 0;
+  left: 2;
+}
+
+.card__tag {
+  position: absolute;
+  background: goldenrod;
+  padding: 1rem;
+  margin: 0;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .card__bottom {
