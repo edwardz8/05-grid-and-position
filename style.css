@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section {
+
+}
+
+.container {
+
+}
