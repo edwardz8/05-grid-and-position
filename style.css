@@ -16,10 +16,34 @@ img {
   max-width: 100%;
 }
 
-.section {
-
+.banner {
+  padding: 1rem;
+  background: #3131aa;
+  color: #fefefe;
 }
 
-.container {
-
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  margin: -0.5rem -1rem;
+}
+
+.nav-list__item {
+  margin: .5rem 1rem;
+}
+
+.nav-list__item--btn {
+margin: 1;
+border: solid white .1rem;
+border-radius: .1rem;
+text-align: center;
+}
+
+
+/*Grid*/
