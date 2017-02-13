@@ -18,7 +18,7 @@ img {
 
 .banner {
   padding: 2rem;
-  background: #1c98d5;
+  background: #276583;
   color: #fefefe;
   line-height: .5rem;
 
@@ -73,7 +73,7 @@ img {
 }
 
 .card {
-  background: goldenrod;
+  background: #ffae4f;
   border: solid 2px;
   border-style: outset;
   margin: 2;
@@ -105,7 +105,8 @@ img {
 
 .card__tag {
   position: absolute;
-  background: #1c98d5;
+  background: #276583;
+  color: white;
   padding: .8rem;
   margin: 0;
   top: -2rem;
