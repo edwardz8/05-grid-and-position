@@ -55,6 +55,7 @@ img {
 }
 
 .container {
+  width: 100%;
   max-width: 65rem;
   margin: 0 auto;
 }
@@ -88,7 +89,7 @@ img {
 }
 
 .card__title {
-  padding: .5rem;
+  padding: 1rem;
   margin: 1rem;
 }
 
@@ -107,7 +108,7 @@ img {
   position: absolute;
   background: #276583;
   color: white;
-  padding: .8rem;
+  padding: 1rem;
   margin: 0;
   top: -2rem;
   left: 50%;
