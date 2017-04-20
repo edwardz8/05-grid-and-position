@@ -97,11 +97,6 @@ img {
   max-width: 3rem;
   border-radius: 50%;
   border: solid grey 1px;
-  //position: absolute;
-  //margin: 0;
-  //top: 1rem;
-  //left: -2rem;
-  //transform: translateY(-50%);
   left: 0;
   transform: translate(-50%, -50%);
 }
