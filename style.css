@@ -86,10 +86,10 @@ img {
 
 .top-card {
   position: relative;
+  padding: 1rem;
 }
 
 .card__title {
-  padding: 1rem;
   margin: 1rem;
 }
 
@@ -97,6 +97,8 @@ img {
   max-width: 3rem;
   border-radius: 50%;
   border: solid grey 1px;
+  position: absolute;
+  top: 50%;
   left: 0;
   transform: translate(-50%, -50%);
 }
@@ -107,9 +109,9 @@ img {
   color: white;
   padding: 1rem;
   margin: 0;
-  top: -2rem;
+  top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
 }
 
 .card__bottom {
